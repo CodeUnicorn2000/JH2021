@@ -1,1 +1,66 @@
 
+p {
+  color: white;
+  font-family: 'Bookman Old Style';
+  font-size: 30px
+} 
+
+
+body {
+  background-color: #9c0620;
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 { 
+  color: white;
+  font-family: Broadway;
+  font-size: 40px;
+}
+.breite {
+  max-width:700px
+}
+.abc {
+border: 3px solid #f5426f;
+}
+
+footer {
+   bottom: 0;
+   width:100%;
+   background-color:black ;
+   color: aqua;
+   text-align: left;
+}
+button {
+  border: roundet;
+  font-size: 35px;
+  height: 100%;
+
+
+}
+
+
+.uebersicht {
+ margin: 80px;
+
+}
+.start {
+text-align: center;
+margin: 0 auto;
+}
+.box-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px
+}
+
+.Bild{
+  display:flex;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 24px;
+  color: white
+}
