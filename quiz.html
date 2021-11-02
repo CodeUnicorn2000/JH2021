@@ -1,27 +1,62 @@
-</html><!DOCTYPE html>
+<html class="h-100">
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Das Quiz</title>
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-     <div class="uebersicht">
-      <h1>Das Quiz</h1>
-      <p id="question">Wie viel Prozent des Stromverbrauches in Deutschland wurde im ersten Halbjahr von 2019 durch erneuerbare Energien gedeckt?</p>
 
-      <input type="radio" id="nulll" name="fav_language" value="0">
-      <label for="0" id="nulllabel">Ca. 45 %</label><br>
-      <input type="radio" id="eins" name="fav_language" value="1">
-      <label for="1" id="einslabel">Ca. 15 %</label><br>
-      <input type="radio" id="zwei" name="fav_language" value="2">
-      <label for="3" id="zweilabel">Ca. 30 %</label><br>
-      <input type="radio" id="drei" name="fav_language" value="3">
-      <label for="3" id="dreilabel">Ca. 60 %</label><br>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Das Quiz</title>
+  <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
 
-      <input type="submit" value="weiter" onclick="content()">
-     </div>
-     <script src="./js/script.js"></script>
-  </body>
+<body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="uebersicht">
+            <h1>Das Quiz</h1>
+            <p id="question" class="lead">Wie viel Prozent des Stromverbrauches in Deutschland wurde im ersten Halbjahr von 2019 durch erneuerbare Energien gedeckt?</p>
+
+            <div class="row">
+              <div class="col text-center">
+                <input type="radio" id="nulll" name="fav_language" value="0">
+                <label for="0" id="nulllabel">Ca. 45 %</label><br>
+                <input type="radio" id="eins" name="fav_language" value="1">
+                <label for="1" id="einslabel">Ca. 15 %</label><br>
+                <input type="radio" id="zwei" name="fav_language" value="2">
+                <label for="3" id="zweilabel">Ca. 30 %</label><br>
+                <input type="radio" id="drei" name="fav_language" value="3">
+                <label for="3" id="dreilabel">Ca. 60 %</label><br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-10">&nbsp;</div>
+              <div class="col">
+                <input type="submit" value="weiter" class="btn btn-light " onclick="content()">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col text-muted">
+          <p>
+
+            HULDIGT ALLE GANDALF DEN BUNTEN! (@gandalf_der_bunte__ auf Instagram)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/bootstrap.js"></script>
+</body>
+
 </html>
