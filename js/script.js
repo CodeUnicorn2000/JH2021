@@ -13,7 +13,7 @@ const data = {
     "question": "Wie viel Prozent des Stromverbrauches in Deutschland wurde im ersten Halbjahr von 2019 durch erneuerbare Energien gedeckt?",
     "answers": ["Ca. 45%","Ca. 15%", "Ca. 30%", "Ca. 60%"],
     "correctAnswer": 0
-  }, 
+  },
   1: {
     "question": "Wann wurde die erste Wasserturbine gebaut?",
     "answers": ["1850", "1870", "1890", "1900"],
@@ -156,9 +156,4 @@ function popUp(endergebnis) {
   else if (endergebnis == 15) {
     alert(fuenfzehnpunkte)
   }
-
-
-
-
-
-
+}
